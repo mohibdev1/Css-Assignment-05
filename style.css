@@ -5,11 +5,13 @@
   box-sizing: border-box;
 }
 
-/* Body */
-body {
-  font-family: "Poppins", sans-serif;
-  background: #fff;
-}
+   body {
+      background-color: #000;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      text-align: center;
+    
+    }
 
 /* Header */
 header {
@@ -89,4 +91,1032 @@ header {
 }
 .btn-red:hover {
   background-color: #cc0000;
+}
+ .discount-banner {
+      width: 100%;
+      text-align: center;
+      background-color: #e0f6f9;
+    }
+
+    .discount-banner img {
+      width: 100%;
+      height: auto;
+    }
+   .brands-section {
+      padding: 40px 0 80px;
+  
+    }
+
+    .brands-section h1 {
+      font-size: 40px;
+      font-weight: 600;
+    }
+    .brands-section h1 span {
+       font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+    }
+    .brands-section h2 {
+      font-size: 28px;
+      margin: 5px 0 20px;
+      font-weight: 400;
+    }
+    .brands-section p {
+      color: #ccc;
+      font-size: 15px;
+      margin-bottom: 50px;
+    }
+
+    /* Brand cards */
+       .brands {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .brand-card {
+      background-color: #fff;
+      border-radius: 4px;
+      width: 250px;
+      height: 150px;
+      padding: 20px;
+      transition: transform .3s ease;
+    }
+
+    .brand-card img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+    }
+
+    .brand-card:hover {
+      transform: translateY(-6px);
+    }
+
+    /* Button under image */
+    .brand-btn {
+      margin-top: 15px;
+      display: inline-block;
+      border: 1px solid #fff;
+      color: #fff;
+      background-color: transparent;
+      border-radius: 25px;
+      padding: 10px 30px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all .3s ease;
+    }
+
+    .brand-btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    
+    .franchise-section {
+      width: 100%;
+      padding: 80px 60px;
+      position: relative;
+      background-color: rgba(255, 255, 255, 0.06);
+    }
+
+    
+
+    /* Heading */
+    .heading {
+      text-align: center;
+      margin-bottom: 60px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .heading h1 {
+      font-size: 48px;
+      font-weight: 800;
+      
+    }
+
+    .heading h2 {
+      font-size: 40px;
+      margin-top: 10px;
+    }
+
+    .heading p {
+      color: #bbb;
+      margin-top: 10px;
+    }
+
+    /* Content area */
+    .franchise-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      gap: 40px;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Left side text */
+    .left {
+      width: 45%;
+    }
+
+    .city {
+      color: #e63946;
+      letter-spacing: 5px;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .title {
+      font-size: 35px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    /* Button */
+    .btn {
+      margin-top: 30px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background-color: transparent;
+      border: 1px solid #fff;
+      padding: 12px 25px;
+      border-radius: 30px;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    .btn span.circle {
+      background: #fff;
+      color: #000;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+/* MAIN BOX */
+.franchise-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 80px 0;
+}
+
+/* LEFT TEXT AREA */
+.left {
+    max-width: 500px;
+}
+
+/* CITY NAME */
+.left .city {
+    color: #c00;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* MAIN TITLE */
+.left .title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0 20px;
+}
+
+/* INFO LINES */
+.left .info {
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+/* BUTTON */
+.left .btn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: 1px solid #bbb;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* ARROW CIRCLE */
+.left .btn .circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #c00;
+}
+
+/* BUTTON HOVER */
+.left .btn:hover {
+    background: white;
+    color: black;
+}
+
+/* RIGHT SIDE IMAGE */
+.right img {
+    width: 500px;
+    border-radius: 5px;
+}
+/* MAIN BOX */
+.faisalabad-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 80px 0;
+}
+
+/* LEFT IMAGE */
+.right-img img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+/* RIGHT TEXT AREA */
+.left-text {
+    max-width: 500px;
+}
+
+/* CITY NAME */
+.left-text .city {
+    color: #c00;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* TITLE */
+.left-text .title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0 20px;
+}
+
+.left-text .title span {
+    font-family: "Cormorant Garamond", serif;
+}
+
+/* INFO LINES */
+.left-text .info {
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+/* BUTTON */
+.left-text .btn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: 1px solid #bbb;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* ARROW CIRCLE */
+.left-text .btn .circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* BUTTON HOVER */
+.left-text .btn:hover {
+    background: white;
+    color: black;
+}
+/* MAIN BOX */
+.bahawalpur-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 80px 0;
+}
+
+/* RIGHT IMAGE */
+.right-img img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+/* LEFT TEXT AREA */
+.left-text {
+    max-width: 500px;
+}
+
+/* CITY NAME */
+.left-text .city {
+    color: #c00;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* TITLE */
+.left-text .title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0 20px;
+}
+
+.left-text .title span {
+    font-family: "Cormorant Garamond", serif;
+}
+
+/* INFO LINES */
+.left-text .info {
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+/* BUTTON */
+.left-text .btn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: 1px solid #bbb;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* BUTTON ARROW */
+.left-text .btn .circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color: #c00;
+}
+
+/* HOVER */
+.left-text .btn:hover {
+    background: white;
+    color:black;
+}
+/* Section Title */
+.express-heading {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.express-sub {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Main Row */
+.express-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* Each Box */
+.express-box {
+    width: 400px;
+    text-align: center;
+ 
+}
+
+/* Images */
+.express-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+/* City Name */
+.express-box .city {
+    color: #c00;
+    letter-spacing: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Title */
+.express-box h3 {
+    font-size: 24px;
+    margin: 10px 0 15px;
+}
+
+.express-box h3 span {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+}
+
+/* Text */
+.express-box p {
+    margin: 20px 0;
+    font-size: 15px;
+}
+#b1 {
+ margin-top: 32px;
+ margin-bottom: 30px;
+}
+#b2{
+ margin-top: 20px;
+ margin-bottom: 25px;
+}
+#b3{
+  margin-top: 32px;
+  margin-bottom: 30px;
+
+}
+#b4{
+margin-top: 35px;
+margin-bottom: 30px;
+}
+#b5{
+margin-top: 20px;
+margin-bottom: 28px;
+}
+#b6{
+margin-top: 37px;
+margin-bottom: 30px;
+}
+#b7{
+margin-top:30px ;
+margin-bottom:30px ;
+}
+#b8{
+ margin-top:30px ;
+ margin-bottom:30px ;
+}
+#b9{
+ margin-top:30px ;
+ margin-bottom:30px ;
+}
+#b10 {
+  margin: 30px 0;
+}
+#b11 {
+ margin-bottom: 32px;
+}
+.express-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: #000;
+    color: #fff;
+    padding: 8px 18px;
+    border: 1px solid #444;
+    border-radius: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 32px;
+    transition: 0.3s;
+}
+
+.express-btn .icon {
+    background: #fff;
+    color: red;
+    padding: 6px 8px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.express-btn:hover {
+    border-color: #fff;
+  
+}
+.village-section {
+    width: 100%;
+    padding: 60px 120px;
+    background: #0f0f0f;
+    color: white;
+    text-align: center;
+}
+
+/* TOP HEADING */
+.village-top-heading .subheading {
+    color: white;
+    letter-spacing: 6px;
+    font-size: 50px;
+  
+}
+
+.village-top-heading .mainheading {
+    font-size: 46px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+/* TWO COLUMNS */
+.village-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.village-left img {
+    width: 550px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.city-name {
+    color: #c00;
+    letter-spacing: 6px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.village-right h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.village-right h2 span {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 35px;
+}
+
+.village-right p {
+    font-size: 16px;
+    margin: 10px 0 20px;
+    text-align: left;
+}
+
+.village-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: #0f8f32;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 40px;
+    font-size: 16px;
+    border: 2px solid #28a745;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.village-btn .icon {
+    background: #fff;
+    color: #0f8f32;
+    padding: 6px 8px;
+    border-radius: 50%;
+}
+
+.village-btn:hover {
+    opacity: 0.8;
+background-color: #000;
+    border-color: #0f8f32;
+}
+.opening-section {
+    text-align: center;
+    background: #000;
+    padding: 50px 0;
+}
+
+.opening-section h1 {
+    font-size: 40px;
+    font-family: 'Georgia', serif;
+    color: white;
+    font-weight: bold;
+}
+
+.opening-section h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.opening-section h2 span {
+    color: #ccc;
+}
+
+.opening-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 0 40px;
+}
+
+.opening-box {
+    background: white;
+    padding: 35px 20px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.loc-icon {
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.soon {
+    color: #c20000;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.opening-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.opening-box h3 span {
+    font-weight: normal;
+}
+
+.opening-box p {
+    margin: 3px 0;
+    font-size: 17px;
+}
+.opening-box h3,
+.opening-box p {
+    color: black !important;
+}
+/* Sab p ko black karo */
+.opening-box p {
+    color: black !important;
+}
+
+/* OPENING SOON ko red rakhne ke liye override */
+.opening-box .soon {
+    color: #c20000 !important;
+      font-size: 14px;      /* chota font */
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.main-footer {
+    background: #0d0d0d;
+    color: #fff;
+    padding: 60px 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-col {
+    width: 22%;
+}
+
+.footer-col.about {
+    width: 30%;
+}
+
+.footer-logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.footer-links-small a {
+    color: #c2c2c2;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.footer-col h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer-col h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer-col p {
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    background: #D8232A;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+#follow {
+  margin-right: 102px;
+}
+
+.store-btn {
+    width: 140px;
+    margin-bottom: 12px;
+    display: block;
+}
+.footer-col ul {
+    list-style: none;   /* Dots hat jayenge */
+    padding: 0;
+    margin: 0;
+}
+.footer-col ul li {
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 600;
+    font-style: normal;
+    background: #000;
+}
+/* ----------------------
+  Responsive for Tablets
+------------------------*/
+@media (max-width: 1024px) {
+  
+  header {
+    flex-direction: column;
+    padding: 15px 30px;
+  }
+
+  .nav-links {
+    margin-left: 0;
+    margin-top: 15px;
+    gap: 20px;
+  }
+
+  .buttons {
+    margin-top: 15px;
+    margin-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .discount-banner img {
+    height: auto;
+  }
+
+  .brands-section .brands {
+    gap: 20px;
+  }
+
+  .brands-section .brand-card {
+    width: 200px;
+    height: 130px;
+    padding: 15px;
+  }
+
+  .franchise-box,
+  .faisalabad-row,
+  .bahawalpur-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .franchise-box .left,
+  .left-text,
+  .right-img img,
+  .right img {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .express-row {
+    gap: 30px;
+  }
+
+  .express-box {
+    width: 45%;
+  }
+
+  .village-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .village-left img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .opening-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  #follow {
+    margin-right: 0;
+  }
+}
+
+/* ----------------------
+  Responsive for Mobile
+------------------------*/
+@media (max-width: 768px) {
+
+  header {
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .brands-section h1 {
+    font-size: 32px;
+  }
+
+  .brands-section h2 {
+    font-size: 24px;
+  }
+
+  .brands-section p {
+    font-size: 14px;
+  }
+
+  .brand-card {
+    width: 180px;
+    height: 110px;
+  }
+
+  .franchise-box .left,
+  .left-text,
+  .right-img img,
+  .right img {
+    max-width: 100%;
+  }
+
+  .express-box {
+    width: 100%;
+  }
+
+  .village-left img {
+    max-width: 100%;
+  }
+
+  .opening-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  .footer-col.about,
+  .footer-col.follow {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .store-btn {
+    margin: 10px auto;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Optional: smaller phones */
+@media (max-width: 480px) {
+  .brands-section h1 {
+    font-size: 26px;
+  }
+
+  .brands-section h2 {
+    font-size: 20px;
+  }
+
+  .brand-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .franchise-box .btn,
+  .left-text .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .village-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .opening-box h3 {
+    font-size: 18px;
+  }
+
+  .opening-box p {
+    font-size: 14px;
+  }
+
+  .opening-box .soon {
+    font-size: 12px;
+  }
 }
