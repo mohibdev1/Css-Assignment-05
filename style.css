@@ -820,12 +820,14 @@ background-color: #000;
 .footer-logo {
     width: 180px;
     margin-bottom: 20px;
+    margin-top: -60px;
 }
 
 .footer-text {
     font-size: 14px;
     line-height: 23px;
     margin-bottom: 30px;
+    margin-top: -45px;
 }
 
 .footer-links-small a {
